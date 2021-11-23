@@ -103,3 +103,49 @@ line-height: 25px;*/
 }
 
 /*==============colors - finish ===========================*/
+
+
+/*==============icons - start ===========================*/
+
+
+
+.icons__item {
+   margin: 40px 0;
+   background-color: #fff;
+   min-height: 200px;
+   border-radius: 25px;
+   padding: 30px 24px;
+   display: flex;
+}
+
+.icons__item div {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 30px;
+   height: 30px;
+}
+
+.icons__item svg {
+   fill: #0880AE;
+}
+
+.icons__item:nth-child(2) {
+   background-color: #7C9CBF;
+   display: flex;
+}
+
+
+
+.icons__item:nth-child(2) svg {
+   fill: #fff;
+}
+
+.icons__item:last-child svg {
+   fill: #000;
+}
+
+
+
+
+/*==============icons - finish ===========================*/
