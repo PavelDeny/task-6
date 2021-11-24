@@ -52,6 +52,83 @@ line-height: 25px;*/
 }
 
 
+/*==============typeface - start ===========================*/
+.typeface__items {
+   display: flex;
+}
+
+.typeface__item {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 320px;
+   height: 320px;
+   background: #2C2738;
+   font-weight: 600;
+   font-size: 196px;
+   line-height: 255px;
+   color: #EBF4F8;
+   border-radius: 56px;
+   padding: 27px 38px 35px 35px;
+   margin: 0 60px 0 0;
+}
+
+.typeface__item-desc {
+   padding: 20px 0;
+}
+
+.row:not(:last-child) {
+   margin-bottom: 20px;
+}
+
+.row__title-source {
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 28px;
+   color: #7C9CBF;
+}
+
+.row__text-source {
+   font-weight: 600;
+   font-size: 34px;
+   line-height: 44px;
+   color: #2C2738;
+}
+
+.row__title-regular,
+.row__text-regular {
+   font-size: 20px;
+   line-height: 26px;
+   color: #2C2738;
+}
+
+
+
+.row__title-semibold,
+.row__text-semibold {
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 26px;
+   color: #2C2738;
+}
+
+.row__title-dowload {
+   font-size: 16px;
+   line-height: 21px;
+   color: #2C2738;
+}
+
+.row__link {
+   font-size: 16px;
+   line-height: 21px;
+   text-decoration-line: underline;
+   color: #0880AE;
+}
+
+/*==============typeface - finish ===========================*/
+
+
+
 /*==============colors - start ===========================*/
 
 .blocks__body {
