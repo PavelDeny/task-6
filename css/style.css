@@ -226,3 +226,75 @@ line-height: 25px;*/
 
 
 /*==============icons - finish ===========================*/
+
+
+
+/*==============logos - finish ===========================*/
+.logos__items {
+   display: flex;
+}
+
+.logo {
+   margin: 0 60px 0 0;
+   display: flex;
+   align-items: center;
+}
+
+.logo-link {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 44px;
+   height: 44px;
+   background: #2C2738;
+   border-radius: 8px;
+   margin: 0 20px 0 0;
+}
+
+.logo__link-bg {
+   background: #fff;
+}
+
+.logo__link-bg svg {
+   fill: #000;
+}
+
+.logo__full-color svg {
+   fill: #fff;
+}
+
+/*==============logos - finish===========================*/
+
+
+/*==============avatars - finish===========================*/
+.avatars__items {
+   display: flex;
+}
+
+.avatars__items a {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 0 30px 0 0;
+   width: 56px;
+   height: 56px;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 21px;
+   color: #FFFFFF;
+   opacity: 0.86;
+   background: #7C9CBF;
+   box-shadow: 0px 2px 4px rgba(44, 39, 56, 0.04), 0px 4px 8px rgba(44, 39, 56, 0.08);
+
+}
+
+.avatar-circle {
+   border-radius: 50%;
+}
+
+.avatar-box {
+   border-radius: 5px;
+
+}
+
+/*==============avatars - finish===========================*/
