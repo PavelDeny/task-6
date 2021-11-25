@@ -653,3 +653,252 @@ line-height: 25px;*/
 }
 
 /*==============type-scale - finish===========================*/
+
+
+/*==============headers - finish===========================*/
+
+.header {
+   background: #fff;
+   display: flex;
+   align-items: center;
+   border-radius: 8px;
+   min-height: 60px;
+   padding: 13px 16px;
+   margin-bottom: 40px;
+}
+
+.headers__body {
+   display: flex;
+   flex-wrap: wrap;
+   width: 100%;
+   justify-content: space-between;
+}
+
+.header-full {
+   width: 100%;
+}
+
+.header-full__menu {
+   display: flex;
+   flex-grow: 1;
+   margin: 0 60px;
+}
+
+.header-full__list {
+   display: flex;
+   justify-content: space-between;
+   min-width: 240px;
+}
+
+.header-full__link {
+   font-size: 16px;
+   line-height: 21px;
+   color: #2C2738;
+}
+
+.header-full__buttons {
+   display: flex;
+   flex: 0 1 215px;
+   justify-content: space-between;
+
+}
+
+.header-full__btn {
+   border: 1px solid #DBE2EA;
+   box-shadow: 0px 1px 2px rgba(44, 39, 56, 0.0001), 0px 2px 4px rgba(44, 39, 56, 0.08);
+   border-radius: 3px;
+   width: 100%;
+   max-width: 100px;
+   padding: 8px 10px;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 18px;
+   text-align: center;
+   color: #7C9CBF;
+   background: #FFFFFF;
+}
+
+.header-full__btn:last-child {
+   background: #0880AE;
+   border: none;
+   color: #EBF4F8;
+}
+
+.header-tablet {
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+   max-width: 768px;
+}
+
+.header-mobail {
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+   max-width: 360px;
+   ;
+}
+
+.header-tablet__menu-item,
+.header-mobail__menu-item {
+   display: flex;
+   align-items: center;
+
+}
+
+.header-tablet .menu-icon-close,
+.header-mobail .menu-icon-close {
+   display: none;
+}
+
+.header-tablet__menu-icon,
+.header-mobail__menu-icon {
+   width: 30px;
+   height: 30px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.header-tablet__menu-title {
+   margin-left: 5px;
+}
+
+
+
+/*==============headers - finish===========================*/
+
+
+/*==============flaps - finish===========================*/
+
+.flaps__body {
+   width: 100%;
+   max-width: 1200px;
+   height: auto;
+   background-size: cover;
+   padding: 76px 40px;
+   margin-right: 10px;
+   margin-bottom: 60px;
+
+}
+
+.flaps__box {
+   width: 100%;
+   max-width: 1200px;
+   height: auto;
+   background-color: #fff;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 60px;
+   border-radius: 20px;
+}
+
+.flaps__box:nth-child(4) {
+   flex-direction: row-reverse;
+   margin-top: 60px;
+   max-width: 1300px;
+}
+
+.flaps__img {
+   width: 400px;
+   height: 400px;
+   object-fit: cover;
+   object-position: center right;
+   border-radius: 16px;
+}
+
+.flaps__desc {
+   color: #2C2738;
+   max-width: 615px;
+   padding-right: 15px;
+}
+
+.flaps__subtitle {
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 22px;
+   color: rgba(117, 111, 134, 0.72);
+   margin-bottom: 8px;
+}
+
+.flaps__title {
+   font-weight: 600;
+   font-size: 56px;
+   line-height: 56px;
+   margin-bottom: 20px;
+
+}
+
+.flaps__text {
+   font-size: 20px;
+   line-height: 28px;
+   margin-bottom: 25px;
+}
+
+.flaps__link {
+   display: inline-block;
+   background: #0880AE;
+   box-shadow: 0px 2px 4px rgba(44, 39, 56, 0.08), 0px 4px 8px rgba(44, 39, 56, 0.08);
+   border-radius: 6px;
+   width: 100%;
+   max-width: 180px;
+   padding: 18px 10px;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 21px;
+   text-align: center;
+   color: #EBF4F8;
+}
+
+
+.flaps__items {
+   display: flex;
+   flex-wrap: wrap;
+   background: #fff;
+   padding: 60px 60px 40px 60px;
+   border-radius: 20px;
+   width: 100%;
+   max-width: 1200px;
+   margin: 60px -6px;
+}
+
+.flaps__col {
+   flex: 0 1 25%;
+   padding: 0 6px;
+}
+
+.flaps__item {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   height: auto;
+   text-align: center;
+   color: #2C2738;
+   margin-bottom: 40px;
+}
+
+.flaps__item-img {
+   max-width: 160px;
+   height: 160px;
+   border-radius: 50%;
+   object-position: right;
+   object-fit: cover;
+   margin-bottom: 17px;
+}
+
+.flaps__item-title {
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 26px;
+   margin-bottom: 10px;
+
+}
+
+.flaps__item-text {
+   font-size: 16px;
+   line-height: 22px;
+
+}
+
+/*==============flaps - finish===========================*/
