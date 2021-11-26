@@ -1403,7 +1403,7 @@
                   Главное - чтобы было максимально похоже на то. что в макете. То есть должна быть возможность эти
                   графики по цветовой гамме настроить под себя (это умеет практически каждая библиотека).-->
       </section>
-      <section class="cards">
+      <!--<section class="cards">
          <div class="container">
             <div class="cards__inner">
                <div class="title-box">
@@ -1512,13 +1512,85 @@
                </div>
             </div>
          </div>
-      </section>
+      </section>-->
       <section class="forms">
          <div class="container">
             <div class="forms__inner">
                <div class="title-box">
                   <div class="title-number">18</div>
                   <div class="title">Forms</div>
+               </div>
+               <div class="forms__body">
+                  <div class="form__contact contact-form">
+                     <div class="forms__title">Contact us</div>
+                     <div class="forms__text">In general, our team replies within 24-28 hours.</div>
+                     <form class="forms__form">
+                        <label class="forms__lable" for="name">Name</label>
+                        <input class="forms__input" id="name" type="text" name="name">
+
+                        <label class="forms__lable" for="email">Email</label>
+                        <input class="forms__input" id="email" type="email" name="email">
+
+                        <label class="forms__lable" for="message">Message or Query</label>
+                        <textarea class="forms__textarea" id="message" name="message"></textarea>
+
+                        <button class="form__btn contact-form__btn" type="button">Send Message</button>
+                     </form>
+
+                  </div>
+
+                  <div class="form__sing-in sing-in-form">
+                     <div class="forms__title">Sign in</div>
+                     <div class="forms__text">Don't have an account yet?</div>
+                     <a href="#" class="forms__link">Sign up now</a>
+                     <form class="forms__form">
+                        <label class="forms__lable" for="singin-email">Email</label>
+                        <input class="forms__input" id="singin-email" type="email" name="name">
+
+                        <label class="forms__lable" for="singin-pass">Password</label>
+                        <input class="forms__input" id="singin-pass" type="password" name="pass">
+
+                        <button class="form__btn" type="button">Sign In</button>
+                     </form>
+
+                     <a href="#" class="forms__link">Forgot password?</a>
+                  </div>
+
+                  <div class="form__new-account new-account-form">
+                     <div class="forms__title">Create an account</div>
+                     <div class="forms__text">Already have an account?</div>
+                     <a href="#" class="forms__link">Sign in</a>
+                     <form class="forms__form">
+                        <label class="forms__lable" for="fullname">Full Name</label>
+                        <input class="forms__input" id="fullname" type="text" name="fullname">
+
+                        <label class="forms__lable" for="new-email">Email</label>
+                        <input class="forms__input" id="new-email" type="email" name="email">
+
+                        <label class="forms__lable" for="new-pass">Password</label>
+                        <input class="forms__input" id="new-pass" type="password" name="pass">
+                        <div class="forms__checkbox-block">
+                           <input class="forms__checkbox" type="checkbox" id="check" name="check" />
+                           <label class="forms__lable-checkbox" for="check">By signing up, I agree to the terms.</label>
+                        </div>
+
+
+                        <button class="form__btn" type="submit">Sign Up</button>
+                     </form>
+
+                  </div>
+
+                  <div class="form__reset reset-form">
+                     <div class="forms__title">Reset Password</div>
+                     <div class="forms__text">Enter your email for a password reset link.</div>
+                     <a href="#" class="forms__link">Forgot Email?</a>
+                     <form class="forms__form">
+                        <label class="forms__lable" for="reset-email">Email</label>
+                        <input class="forms__input" id="reset-email" type="email" name="email">
+                        <button class="form__btn" type="submit">Send Reset Link</button>
+                     </form>
+                     <a href="#" class="forms__link">Back to Sign in</a>
+                  </div>
                </div>
             </div>
          </div>
