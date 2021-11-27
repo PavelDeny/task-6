@@ -9,11 +9,9 @@ a {
 
 body {
    background-color: #EBF4F8;
-   /*color: #000;*/
+
    font-family: 'IBM Plex Sans', sans-serif;
-   /*font-weight: 500;
-font-size: 15px;
-line-height: 25px;*/
+
 }
 
 .container {
@@ -134,7 +132,7 @@ line-height: 25px;*/
 .blocks__body {
    display: flex;
    flex-wrap: wrap;
-   /*justify-content: space-between;*/
+
    margin: 0 -20px;
 }
 
@@ -229,7 +227,7 @@ line-height: 25px;*/
 
 
 
-/*==============logos - finish ===========================*/
+/*==============logos - start ===========================*/
 .logos__items {
    display: flex;
 }
@@ -266,7 +264,7 @@ line-height: 25px;*/
 /*==============logos - finish===========================*/
 
 
-/*==============avatars - finish===========================*/
+/*==============avatars - start===========================*/
 .avatars__items {
    display: flex;
 }
@@ -303,7 +301,7 @@ line-height: 25px;*/
 
 
 
-/*==============list-rating - finish===========================*/
+/*==============list-rating - start===========================*/
 .list-rating__collumns {
    display: flex;
 }
@@ -395,7 +393,7 @@ line-height: 25px;*/
 
 
 
-/*==============Popover - finish===========================*/
+/*==============Popover - start===========================*/
 
 .popover__collumns {
    display: flex;
@@ -486,7 +484,7 @@ line-height: 25px;*/
    color: #756F86;
 }
 
-/*.popover .popover .popover .popover .popover*/
+
 
 
 
@@ -495,7 +493,7 @@ line-height: 25px;*/
 
 
 
-/*==============tooltip - finish===========================*/
+/*==============tooltip - start===========================*/
 .tooltip__collumns {
    display: flex;
 }
@@ -655,7 +653,7 @@ line-height: 25px;*/
 /*==============type-scale - finish===========================*/
 
 
-/*==============headers - finish===========================*/
+/*==============headers - start===========================*/
 
 .header {
    background: #fff;
@@ -769,7 +767,7 @@ line-height: 25px;*/
 /*==============headers - finish===========================*/
 
 
-/*==============flaps - finish===========================*/
+/*==============flaps - start===========================*/
 
 .flaps__body {
    width: 100%;
@@ -905,7 +903,7 @@ line-height: 25px;*/
 
 
 
-/*==============modals - finish===========================*/
+/*==============modals - start===========================*/
 
 .modals__body {
    display: flex;
@@ -991,7 +989,7 @@ line-height: 25px;*/
 /*==============modals - finish===========================*/
 
 
-/*==============callouts - finish===========================*/
+/*==============callouts - start===========================*/
 
 .callouts__box,
 .callouts__item {
@@ -1077,7 +1075,7 @@ line-height: 25px;*/
 /*==============callouts - finish===========================*/
 
 
-/*==============cards - finish===========================*/
+/*==============cards - start===========================*/
 
 
 .cards__blocks {
@@ -1246,7 +1244,7 @@ line-height: 25px;*/
 /*==============cards - finish===========================*/
 
 
-/*==============forms - finish===========================*/
+/*==============forms - start===========================*/
 
 .forms__body {
    width: 100%;
@@ -1432,3 +1430,142 @@ line-height: 25px;*/
 
 
 /*==============forms - finish===========================*/
+
+
+/*==============misc - start===========================*/
+
+.misc__body {
+   display: flex;
+}
+
+.misc__items:nth-child(2) div {
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 21px;
+   color: #756F86;
+}
+
+.misc__items {
+   margin-right: 120px;
+}
+
+.misc__items:nth-child(2) {
+   margin-right: 80px;
+}
+
+.misc__items:nth-child(2) .misc__item-box {
+   margin: 0;
+   margin-left: 8px;
+}
+
+.misc__item {
+   display: flex;
+   align-items: center;
+   font-size: 16px;
+   line-height: 21px;
+   color: #756F86;
+}
+
+.misc__item-box {
+   width: 30px;
+   height: 30px;
+   margin-right: 8px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.misc__item-box svg {
+   fill: #0880AE;
+}
+
+.misc__item-square {
+   width: 12px;
+   height: 12px;
+   background: #0880AE;
+}
+
+.misc__rating-text {
+   font-size: 14px;
+   line-height: 18px;
+   margin-top: 8px;
+   color: #756F86;
+}
+
+.rating__value {
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 18px;
+   padding: 0 0 0 6px;
+   color: #2C2738;
+}
+
+/*----------------------------------------*/
+
+.rating {
+   display: flex;
+   align-items: flex-end;
+   font-size: 25px;
+   color: rgba(163, 186, 212, 1);
+   line-height: 0.75;
+}
+
+.rating__body {
+   position: relative;
+}
+
+.rating__body::before {
+   content: ' ';
+   display: block;
+   width: 105px;
+   height: 20px;
+   background-image: url('../images/icons/NpActiveStar.svg');
+   background-repeat: repeat-x;
+   background-size: contain;
+   top: 0;
+   left: 0;
+}
+
+.rating__items {
+   display: flex;
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   top: -2px;
+   left: 0;
+
+}
+
+.rating__item {
+   flex: 0 0 10%;
+   height: 100%;
+   /*margin: 0 5px;*/
+   opacity: 0;
+}
+
+.rating__active {
+   position: absolute;
+   width: 0%;
+   height: 100%;
+   top: 0;
+   left: 0;
+   overflow: hidden;
+}
+
+.rating__active::before {
+   content: '';
+   z-index: 2;
+   display: block;
+   width: 100%;
+   height: 20px;
+   background-image: url('../images/icons/ActiveStar.svg');
+   background-repeat: repeat-x;
+   background-size: contain;
+   top: 0;
+   left: 0;
+}
+
+
+
+
+/*==============misc - finish===========================*/
