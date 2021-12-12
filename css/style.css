@@ -698,6 +698,7 @@ body {
    width: 100%;
    max-width: 1200px;
    min-height: 60px;
+
 }
 
 .header-full__menu {
@@ -3071,7 +3072,7 @@ body {
    }
 
    .form__box-item {
-      margin: 0;
+      margin: 0 10px 0 0;
       margin-bottom: 25px;
    }
 
@@ -3103,7 +3104,7 @@ body {
    }
 
    .logo {
-      margin: 0 0 25px 0;
+      margin: 0 10px 25px 0;
    }
 
    .flaps__block {
@@ -3241,6 +3242,15 @@ body {
       margin-bottom: 25px;
    }
 
+   .header-full {
+      width: 100%;
+      max-width: 1200px;
+      min-height: 60px;
+      display: flex;
+      justify-content: space-between;
+
+   }
+
    .header-full__buttons {
       display: none;
    }
@@ -3256,6 +3266,8 @@ body {
 
    .header-icon-menu {
       display: block;
+      width: 100%;
+      max-width: 100px;
    }
 
    .icon-menu {
